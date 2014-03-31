@@ -1,0 +1,1 @@
+These preference files are intended to be used with [Workspace Mechanic](https://code.google.com/a/eclipselabs.org/p/workspacemechanic/)
