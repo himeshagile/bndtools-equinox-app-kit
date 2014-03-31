@@ -1,4 +1,4 @@
-bntools-equinox-app-kit
+bndtools-equinox-app-kit
 =======================
 
 Starter kit for building OSGi / Equinox applications with Bndtools
