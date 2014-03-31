@@ -1,0 +1,10 @@
+-runfw: org.eclipse.osgi;version='[3.9.1,3.9.1]'
+-runee: JavaSE-1.7
+-runbundles: org.example.hello;version=latest,\
+	org.apache.felix.gogo.command,\
+	org.apache.felix.gogo.runtime,\
+	org.apache.felix.gogo.shell,\
+	org.eclipse.equinox.console,\
+	org.bndtools.rt.caffeine
+-runproperties: osgi.console="" ,\
+	do.not.remove="Works around a bug in bndtools when the osgi.console property does not have a value"
