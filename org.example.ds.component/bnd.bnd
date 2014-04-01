@@ -1,0 +1,4 @@
+-buildpath: org.example.ds.api;version=latest,\
+	org.eclipse.osgi.services
+-dsannotations: *
+Private-Package: org.example.ds.component
