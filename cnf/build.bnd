@@ -45,7 +45,9 @@
 # -plugin: ${ext.repositories.-plugin}, org.example.MyPlugin
 -plugin: ${ext.repositories.-plugin}, \
          aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Felix;local=${workspace}/cnf/felix, \
-         aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Equinox;local=${workspace}/cnf/equinox
+         aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Equinox;local=${workspace}/cnf/equinox, \
+         aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Javax;local=${workspace}/cnf/javax, \
+         aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Jetty;local=${workspace}/cnf/jetty
 
 ## If you use git, you might want to uncomment the following lines:
 Git-Descriptor:       ${system-allow-fail;git describe --dirty --always}
