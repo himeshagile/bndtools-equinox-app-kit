@@ -1,0 +1,4 @@
+-buildpath: javax.ws.rs-api,\
+	org.eclipse.osgi.services
+-dsannotations: *
+Private-Package: org.example.rest
