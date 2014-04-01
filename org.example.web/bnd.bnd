@@ -1,0 +1,4 @@
+-dsannotations: *
+-buildpath: javax.servlet-api,\
+	org.eclipse.osgi.services
+Private-Package: org.example.web
