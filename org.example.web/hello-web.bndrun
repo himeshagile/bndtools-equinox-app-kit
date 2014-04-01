@@ -23,4 +23,4 @@
 	org.eclipse.equinox.metatype,\
 	org.example.web;version=latest
 -runproperties: osgi.console="" ,\
-	org.osgi.service.http.port=9999
+	org.osgi.service.http.port=8080
