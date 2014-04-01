@@ -22,4 +22,4 @@
 	org.apache.felix.webconsole,\
 	org.eclipse.equinox.metatype
 -runproperties: osgi.console="" ,\
-	org.osgi.service.http.port=9999
+	org.osgi.service.http.port=8080
