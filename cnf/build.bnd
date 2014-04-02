@@ -48,10 +48,7 @@
 	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Equinox;local=${workspace}/cnf/equinox,\
 	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Javax;local=${workspace}/cnf/javax,\
 	aQute.bnd.deployer.repository.LocalIndexedRepo;pretty=false;readonly=false;name=Jetty;local=${workspace}/cnf/jetty,\
-	aQute.bnd.deployer.repository.FixedIndexedRepo;name=Rest;locations=http://hstaudacher.github.io/osgi-jax-rs-connector/index.xml.gz, \
-	aQute.bnd.deployer.repository.FixedIndexedRepo;name=3p2;locations=http://bryanhunt.github.com/3rd-party-libs/index.xml.gz,\
-    aQute.bnd.deployer.repository.FixedIndexedRepo;name=eUnit;locations=http://bryanhunt.github.com/eUnit/releases/1.0.0/index.xml.gz,\
-    aQute.bnd.deployer.repository.FixedIndexedRepo;name=eMongo;locations=http://bryanhunt.github.com/eMongo/releases/1.1.0/index.xml.gz
+	aQute.bnd.deployer.repository.FixedIndexedRepo;name=Rest;locations=http://hstaudacher.github.io/osgi-jax-rs-connector/index.xml.gz
 
 ## If you use git, you might want to uncomment the following lines:
 Git-Descriptor:       ${system-allow-fail;git describe --dirty --always}
