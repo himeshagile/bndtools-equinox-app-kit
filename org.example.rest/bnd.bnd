@@ -1,4 +1,7 @@
--buildpath: javax.ws.rs-api,\
-	org.eclipse.osgi.services
+javac.source=1.7
+javac.target=1.7
+-buildpath:  \
+	org.eclipse.osgi.services,\
+	com.eclipsesource.jaxrs.jersey-all
 -dsannotations: *
 Private-Package: org.example.rest
