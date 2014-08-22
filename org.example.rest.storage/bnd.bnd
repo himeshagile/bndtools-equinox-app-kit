@@ -1,7 +1,10 @@
 Private-Package: org.example.rest.storage
 -dsannotations: *
 Bundle-Version: 1.0.0
--buildpath: org.eclipse.osgi.services,\
+javac.source=1.7
+javac.target=1.7
+-buildpath:  \
+	org.eclipse.osgi.services,\
 	org.mongodb.mongo-java-driver,\
 	org.eclipselabs.emongo.api,\
-	javax.ws.rs-api
+	com.eclipsesource.jaxrs.jersey-all
